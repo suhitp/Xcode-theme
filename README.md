@@ -1,6 +1,32 @@
 # 🎨 Xcode-theme
-Some of the Xcode-themes which looks great with Xcode dark and light modes.
+Xcode themes for dark and light modes.
 
+## Themes
+
+### Dark
+| Theme | Backdrop | Accent |
+| --- | --- | --- |
+| Xcode Dark Ember Dusk | `#0E0E0E` | orange strings, teal types |
+| Xcode Dark Ember Midnight | `#10101A` | orange strings, cyan types |
+| Xcode Dark Honey Dusk | `#101010` | amber strings, cyan types |
+| Xcode Dark Knight Dusk Cobalt | `#101010` | cyan-first identifiers |
+| Xcode Dark Knight Dusk Moss | `#101010` | green-first identifiers |
+| Xcode Dark Knight Midnight | `#070917` | deep navy, jade identifiers |
+| Xcode Dark Knight Midnight Ember | `#070911` | deep navy, orange keywords |
+| Xcode Dark Ruby Dusk Ember | `#101010` | red strings, pink keywords |
+
+### Light
+| Theme | Backdrop | Accent |
+| --- | --- | --- |
+| Xcode Light Cobalt Zenith | `#FFFFFF` | blue identifiers |
+| Xcode Light Lagoon Zenith | `#FFFFFF` | teal identifiers |
+| Xcode Light Prism Dawn | `#F9F9F9` | muted spectrum, brown comments |
+| Xcode Light Prism Zenith | `#FFFFFF` | full spectrum, brown comments |
+
+Names follow `<Mode> <Accent> <Backdrop>`:
+
+- **Accent** — what glows in it: *Ember, Honey, Ruby, Moss, Cobalt, Lagoon, Prism*
+- **Backdrop** — the sky behind it: *Dusk* (`#101010`), *Midnight* (navy black), *Zenith* (`#FFFFFF`), *Dawn* (`#F9F9F9`)
 
 ## Installation
 
@@ -12,9 +38,11 @@ $ git clone https://github.com/suhitp/xcode-theme.git
 
 3. Copy the files with .xccolortheme extension into the FontAndColorThemes folder.
 
-4. Xcode-themes use 'Source Code Pro' and 'Fira code' Fonts. Download the fonts from [Source Code Pro](https://github.com/adobe-fonts/source-code-pro) and [Fira Code](https://github.com/tonsky/FiraCode) links.
+4. Install the fonts. Without them Xcode silently falls back to a system mono and the themes won't look right.
 
-5. Unzip the font archive and move the files in the TTF folder to ~/Library/Fonts.
+   **Every theme uses JetBrainsMono Nerd Font** — download *JetBrainsMono Nerd Font* from [nerd-fonts/releases](https://github.com/ryanoasis/nerd-fonts/releases).
+
+5. Unzip each archive and move the font files into ~/Library/Fonts.
 
 ## Activating theme
 
