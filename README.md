@@ -3,9 +3,6 @@
   <p>Six themes for Xcode — four dark, two light. One font, one naming scheme.</p>
 </p>
 
-<!--
-PREVIEW — after running ./scripts/screenshot.sh, uncomment this block:
-
 <p align="center">
   <img src="preview/Xcode Dark Knight Midnight.png" width="49%" alt="Xcode Dark Knight Midnight">
   <img src="preview/Xcode Dark Ruby Dusk Ember.png" width="49%" alt="Xcode Dark Ruby Dusk Ember">
@@ -13,19 +10,6 @@ PREVIEW — after running ./scripts/screenshot.sh, uncomment this block:
   <img src="preview/Xcode Light Lagoon Zenith.png" width="49%" alt="Xcode Light Lagoon Zenith">
   <img src="preview/Xcode Light Prism Zenith.png" width="49%" alt="Xcode Light Prism Zenith">
 </p>
--->
-
-## Preview
-
-Theme screenshots are generated from Xcode itself, not mocked up. To produce them:
-
-```sh
-./scripts/install.sh
-./scripts/screenshot.sh
-```
-
-It walks the theme list, waits for you to select each one in Xcode, and captures
-the window. Then uncomment the block at the top of this file.
 
 ## Themes
 
