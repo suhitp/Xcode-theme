@@ -20,13 +20,12 @@ PREVIEW — after running ./scripts/screenshot.sh, uncomment this block:
 Theme screenshots are generated from Xcode itself, not mocked up. To produce them:
 
 ```sh
-cp Dark/*.xccolortheme Light/*.xccolortheme \
-   ~/Library/Developer/Xcode/UserData/FontAndColorThemes/
+./scripts/install.sh
 ./scripts/screenshot.sh
 ```
 
 It walks the theme list, waits for you to select each one in Xcode, and captures
-your window. Then uncomment the block at the top of this file.
+the window. Then uncomment the block at the top of this file.
 
 ## Themes
 
@@ -63,16 +62,16 @@ macros, magenta regex) and **Ember** (slate comments, warm orange strings).
    [nerd-fonts/releases](https://github.com/ryanoasis/nerd-fonts/releases) →
    *JetBrainsMono Nerd Font*. Unzip into `~/Library/Fonts`.
 
-2. Copy the themes — flat, since Xcode does not look inside subfolders:
+2. Install the themes:
 
    ```sh
    git clone https://github.com/suhitp/xcode-theme.git
    cd xcode-theme
-   cp Dark/*.xccolortheme Light/*.xccolortheme \
-      ~/Library/Developer/Xcode/UserData/FontAndColorThemes/
+   ./scripts/install.sh
    ```
 
-   Create that folder first if it doesn't exist.
+   Pass `--clean` to also drop older themes from this repo that have since been
+   renamed or removed, so your picker stays tidy.
 
 3. Restart Xcode, then **Settings ▸ Themes** and pick one.
 
