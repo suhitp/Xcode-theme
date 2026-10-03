@@ -20,7 +20,8 @@ PREVIEW — after running ./scripts/screenshot.sh, uncomment this block:
 Theme screenshots are generated from Xcode itself, not mocked up. To produce them:
 
 ```sh
-cp -R Dark Light ~/Library/Developer/Xcode/UserData/FontAndColorThemes/
+cp Dark/*.xccolortheme Light/*.xccolortheme \
+   ~/Library/Developer/Xcode/UserData/FontAndColorThemes/
 ./scripts/screenshot.sh
 ```
 

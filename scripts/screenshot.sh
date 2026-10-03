@@ -2,7 +2,8 @@
 # Capture one screenshot per theme, straight out of Xcode.
 #
 # Setup:
-#   1. Copy Dark/ and Light/ into ~/Library/Developer/Xcode/UserData/FontAndColorThemes
+#   1. Copy the .xccolortheme files into ~/Library/Developer/Xcode/UserData/FontAndColorThemes
+#      (flat — Xcode does not look inside subfolders)
 #   2. Open Xcode with some code showing in the editor
 #   3. Tune RECT below so it frames your Xcode window, then run: ./scripts/screenshot.sh
 #
