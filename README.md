@@ -3,31 +3,23 @@
   <p>Six themes for Xcode — four dark, two light. One font, one naming scheme.</p>
 </p>
 
-<p align="center">
-  <img src="preview/Xcode Dark Knight Midnight.png" width="49%" alt="Xcode Dark Knight Midnight">
-  <img src="preview/Xcode Dark Ruby Dusk Ember.png" width="49%" alt="Xcode Dark Ruby Dusk Ember">
-  <br><br>
-  <img src="preview/Xcode Light Lagoon Zenith.png" width="49%" alt="Xcode Light Lagoon Zenith">
-  <img src="preview/Xcode Light Prism Zenith.png" width="49%" alt="Xcode Light Prism Zenith">
-</p>
-
 ## Themes
 
 ### Dark
 
-| Theme | Backdrop | Character |
+| Theme | Backdrop | Description |
 | --- | --- | --- |
-| **Ember Dusk** | `#0E0E0E` | orange strings, teal types |
-| **Knight Dusk Moss** | `#101010` | green-first identifiers, magenta regex |
-| **Knight Midnight** | `#070917` | deep navy, jade identifiers |
-| **Ruby Dusk Ember** | `#101010` | red strings, pink keywords |
+| **Ember Dusk** | `#0E0E0E` | Slate comments with warm orange strings and numbers, teal types. A conventional warm palette that stays out of the way on a long session. |
+| **Knight Dusk Moss** | `#101010` | Jade classes and types, yellow declarations, amber macros, and every regex token in magenta. High separation between token kinds. |
+| **Knight Midnight** | `#070917` | A blue cast runs through the editor and the console too, with bright jade identifiers against it. The signature theme of the set. |
+| **Ruby Dusk Ember** | `#101010` | The most colourful theme here: red strings, pink keywords, mint and violet identifiers on neutral black. Built for contrast. |
 
 ### Light
 
-| Theme | Backdrop | Character |
+| Theme | Backdrop | Description |
 | --- | --- | --- |
-| **Lagoon Zenith** | `#FFFFFF` | teal identifiers |
-| **Prism Zenith** | `#FFFFFF` | full spectrum, brown comments |
+| **Lagoon Zenith** | `#FFFFFF` | Neutral grey comments instead of the coloured ones most light themes reach for, with teal-forward identifiers. Quiet enough to disappear behind the code. |
+| **Prism Zenith** | `#FFFFFF` | Warm brown comments, pink keywords, blue and violet declarations. Richer than Lagoon, for when you want colour in a light theme. |
 
 ### Naming
 
